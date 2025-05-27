@@ -6,3 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
   });
 });
+
+function openModal() {
+  document.getElementById("formModal").classList.remove("hidden");
+  document.getElementById("formModal").classList.add("flex");
+}
+
+function closeModal() {
+  document.getElementById("formModal").classList.remove("flex");
+  document.getElementById("formModal").classList.add("hidden");
+}
