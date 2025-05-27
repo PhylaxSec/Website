@@ -9,6 +9,11 @@
       rel="stylesheet"
     />
     <script defer src="main.js"></script>
+    <script>
+      if (location.hostname === "www.phylaxsec.com") {
+        location.href = "https://phylaxsec.com" + location.pathname;
+      }
+    </script>
   </head>
   <body
     class="bg-[#ccb8c3] text-gray-900 font-sans"
